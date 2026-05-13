@@ -36,10 +36,10 @@ int main()
         else
         {
             right=mid-1;
-             if(a[left]<ans)
+             if(a[mid]<ans)
             {
                 index=mid;
-                ans=a[left];
+                ans=a[mid];
             }
             
         }
